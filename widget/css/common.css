@@ -1,0 +1,35 @@
+.color-primary {
+    background-color: #85b6cc !important
+}
+
+.color-primary-dark {
+    color: #aecedd !important
+}
+
+.color-accent {
+    color: #f2f2f2 !important
+}
+
+.color-accent-primary {
+    color: #85b6cc !important
+}
+
+.color-accent-dark {
+    color: #becdb8 !important
+}
+
+.color-accent-grey {
+    color: #a5a5a5 !important
+}
+
+
+/* ==================================== 以下是覆盖样式 ===========================================*/
+
+.aui-list .aui-list-item-inner {
+    min-height: 2.5rem;
+}
+
+.aui-radio:checked, .aui-radio.aui-checked, .aui-checkbox:checked, .aui-checkbox.aui-checked {
+    background-color: #85b6cc;
+    border: solid 1px #85b6cc;
+}
